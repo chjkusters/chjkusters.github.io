@@ -93,7 +93,7 @@
         }
 
         .venue {
-            margin: 1rem;
+            /*margin: 1rem;*/
             font-weight: bold;
         }
 
@@ -101,6 +101,18 @@
             /*width: 125px;*/
             height: 25px;
             transition: transform 0.3s ease-in-out;
+        }
+
+        .logo_prize {
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .logo_prize img {
+            height: 25px;
+            padding-top: 5px;
+            padding-bottom: -5px;
+            vertical-align: middle;
         }
 
         .logo_colab img {
@@ -169,7 +181,7 @@
     </ul>
 </nav>
 
-<section class="hero is-primary is-bold">
+<section class="hero is-info">
     <div class="hero-body">
         <div class="container">
             <div class="columns is-vcentered">
@@ -320,7 +332,8 @@
                             <div class="links">
                                 <p><span class="icon"><i class="ai ai-archive"></i></span><a
                                         href="https://doi.org/10.1117/12.2647557" target="_blank">SPIE Digital Library</a></p>
-                                <br><p><span class="icon"><i class="logo"><img src="logos/prize.jpg"></i></span> Computer-Aided Diagnosis Best Paper Award</p>
+                                <p><span class="icon"><i class="logo_prize"><img src="logos/prize.jpg"></i></span> Computer-Aided Diagnosis Best Paper Award</p>
+<!--                                <p><span class="icon"><img src="logos/prize.jpg"></i></span> Computer-Aided Diagnosis Best Paper Award</p>-->
                             </div>
 <!--                        </a>-->
                     </div>
